@@ -205,6 +205,7 @@ body {
 
 .hero-section {
   background-color: var(--bg-hero-color);
+  background-image: url('../images/');
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -323,6 +324,16 @@ body {
   text-align: center;
 }
 
+/* regular customers section */
+
+.customers-list {
+  display: flex;
+  justify-content: center;
+}
+.customer-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 /* portfolio main section */
 
 .portfolio-filter {
@@ -351,11 +362,20 @@ body {
 .btn-category.active-btn {
   color: var(--bg-color);
   background-color: var(--primary-action-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-item {
   background-color: var(--portfolio-item-bg-color);
   box-sizing: border-box;
+  cursor: pointer;
+}
+
+.portfolio-item:hover,
+.portfolio-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-item:nth-child(-n + 6) {
