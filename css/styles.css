@@ -205,14 +205,19 @@ body {
 
 .hero-section {
   height: 600px;
-  min-width: 1600px;
-  background-color: var(--bg-hero-color);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4)),
-    url('../images/hero-image.jpg');
-  background-repeat: no-repeat;
-
+  width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
+  margin: 0 auto;
+  background-color: var(--bg-hero-color);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url('../images/hero-image.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-header {
@@ -328,6 +333,38 @@ body {
   line-height: 1.19;
   text-align: center;
 }
+
+.social-list {
+  padding: 0 auto;
+  display: flex;
+}
+
+.social-item {
+  width: 44px;
+  height: 44px;
+}
+
+.social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-link {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: var(--bg-color);
+  border-radius: 50%;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--primary-action-color);
+}
+
+/* .social-icon {
+  width: 20px;
+  height: 20px;
+} */
 
 /* regular customers section */
 
