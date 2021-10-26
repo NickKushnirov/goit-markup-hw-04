@@ -336,11 +336,12 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  margin-bottom: 16px;
 }
 
 .social-list {
-  padding: 0 auto;
   display: flex;
+  justify-content: center;
 }
 
 .social-item {
@@ -358,6 +359,9 @@ body {
   display: block;
   background-color: var(--bg-color);
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .social-link:hover,
@@ -365,10 +369,11 @@ body {
   background-color: var(--primary-action-color);
 }
 
-/* .social-icon {
+.social-icon {
   width: 20px;
   height: 20px;
-} */
+  fill: #afb1b8;
+}
 
 /* regular customers section */
 
