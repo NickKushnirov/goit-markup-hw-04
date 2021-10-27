@@ -375,6 +375,10 @@ body {
   fill: #afb1b8;
 }
 
+.social-icon:hover {
+  fill: var(--bg-color);
+}
+
 /* regular customers section */
 
 .customers-list {
