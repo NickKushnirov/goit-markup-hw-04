@@ -376,7 +376,7 @@ body {
 }
 
 .social-icon:hover {
-  fill: var(--bg-color);
+  fill: #ffffff;
 }
 
 /* regular customers section */
