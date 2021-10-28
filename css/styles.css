@@ -177,6 +177,15 @@ body {
   background-color: var(--bg-footer-color);
   padding-top: 60px;
   padding-bottom: 60px;
+  display: block;
+}
+
+.address-section {
+}
+
+.footer-social {
+  display: block;
+  background-color: tomato;
 }
 
 .logo-footer {
@@ -209,7 +218,7 @@ body {
 
 .hero-section {
   height: 600px;
-  width: 1600px;
+  max-width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
   margin: 0 auto;
@@ -370,13 +379,11 @@ body {
 }
 
 .social-icon {
-  width: 20px;
-  height: 20px;
-  fill: #afb1b8;
+  fill: tomato;
 }
 
 .social-icon:hover {
-  fill: #ffffff;
+  fill: var(--bg-color);
 }
 
 /* regular customers section */
@@ -384,7 +391,30 @@ body {
 .customers-list {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
+
+.customer-item {
+  width: 170px;
+  height: 92px;
+  background: var(--bg-color);
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customer-item-link {
+  fill: var(--primary-action-color);
+}
+
+.customer-icon {
+  width: 106px;
+  height: 60px;
+  fill: #afb1b8;
+}
+
 .customer-item:not(:last-child) {
   margin-right: 30px;
 }
