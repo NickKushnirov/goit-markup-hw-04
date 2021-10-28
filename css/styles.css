@@ -192,12 +192,24 @@ body {
   display: block;
 }
 
-.address-section {
+.footer-lists {
+  display: flex;
+}
+
+.address-link-section {
+  margin-right: 70px;
 }
 
 .footer-social {
-  display: block;
-  background-color: tomato;
+  
+}
+
+.footer-social-header {
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.17;
+  color: var(--bg-color);
+  margin-bottom: 20px;
 }
 
 .logo-footer {
@@ -441,11 +453,14 @@ body {
   border-radius: 4px;
 }
 
-.customer-item-link:hover {
+.customer-item-link:hover,
+.customer-item-link:focus {
   border-color: var(--primary-action-color);
 }
 
-.customer-item-link:hover .customer-icon {
+.customer-item-link:hover .customer-icon,
+.customer-item-link:focus .customer-icon
+ {
   fill: var(--primary-action-color);
 }
 
