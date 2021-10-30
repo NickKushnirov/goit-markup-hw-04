@@ -201,13 +201,13 @@ body {
 }
 
 .footer-social {
-  
+  padding-top: 12px;
 }
 
 .footer-social-header {
   font-weight: 700;
   text-transform: uppercase;
-  line-height: 1.17;
+  line-height: 1.14;
   color: var(--bg-color);
   margin-bottom: 20px;
 }
@@ -413,6 +413,10 @@ body {
   justify-content: center;
 }
 
+.social-link.social-link-footer {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
 .social-link:hover,
 .social-link:focus {
   background-color: var(--primary-action-color);
@@ -422,6 +426,10 @@ body {
   width: 20px;
   height: 20px;
   fill: #afb1b8;
+}
+
+.social-icon.social-icon-footer {
+  fill: var(--bg-color);
 }
 
 .social-link:hover .social-icon,
@@ -459,8 +467,7 @@ body {
 }
 
 .customer-item-link:hover .customer-icon,
-.customer-item-link:focus .customer-icon
- {
+.customer-item-link:focus .customer-icon {
   fill: var(--primary-action-color);
 }
 
