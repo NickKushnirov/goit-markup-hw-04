@@ -21,9 +21,8 @@
   <body>
     <!-- header section -->
     <header class="header-section">
-      <div class="container">
+      <div class="container header-all-elements">
         <!-- navigation section -->
-        <div class="header-all-elements">
           <nav class="nav-section">
             <!-- logo -->
             <a class="link logo logo-header" href="./index.html"
@@ -68,8 +67,7 @@
             </li>
           </ul>
         </div>
-      </div>
-    </header>
+          </header>
 
     <!-- main section -->
     <main>
@@ -158,6 +156,7 @@
                 src="./images/feature-1.jpg"
                 alt="Структурирование материала"
                 width="370"
+                class="image"
               />
             </li>
             <li class="activities-item">
@@ -165,6 +164,7 @@
                 src="./images/feature-2.jpg"
                 alt="Адаптирование - мобильные устройства"
                 width="370"
+                class="image"
               />
             </li>
             <li class="activities-item">
@@ -172,6 +172,7 @@
                 src="./images/feature-3.jpg"
                 alt="Адаптирование - планшеты"
                 width="370"
+                class="image"
               />
             </li>
           </ul>
@@ -190,7 +191,7 @@
                 src="./images/igor-demyanenko.jpg"
                 alt="Игорь Демьяненко"
                 width="270"
-                class="team-item-image"
+                class="image"
               />
               <div class="team-item-text">
                 <h3 class="general-header-properties team-member-name">
@@ -234,7 +235,7 @@
                 src="./images/olga-ryepina.jpg"
                 alt="Ольга Репина"
                 width="270"
-                class="team-item-image"
+                class="image"
               />
               <div class="team-item-text">
                 <h3 class="general-header-properties team-member-name">
@@ -280,7 +281,7 @@
                 src="./images/nikolay-tarasov.jpg"
                 alt="Николай Тарасов"
                 width="270"
-                class="team-item-image"
+                class="image"
               />
               <div class="team-item-text">
                 <h3 class="general-header-properties team-member-name">
@@ -324,7 +325,7 @@
                 src="./images/mikhail-yermakov.jpg"
                 alt="Михаил Ермаков"
                 width="270"
-                class="team-item-image"
+                class="image"
               />
               <div class="team-item-text">
                 <h3 class="general-header-properties team-member-name">
@@ -422,12 +423,14 @@
 
     <!-- footer section -->
     <footer class="footer-section">
-      <div class="container">
-        <div class="footer-lists">
-          <section class="address-section">
+      <div class="container footer-lists">
+          <div class="footer-text">
             <a class="link logo logo-footer" href="./index.html"
               >Web<span class="logo-footer-second-part">Studio</span></a
             >
+            <p class="footer-social-header">Присоединяйтесь</p>
+          </div>
+          <div class="footer-links">
             <address class="address-link-section">
               <ul class="list address-elements-list">
                 <li class="address-footer-item">
@@ -453,9 +456,9 @@
                 </li>
               </ul>
             </address>
-          </section>
-          <section class="footer-social">
-            <p class="footer-social-header">Присоединяйтесь</p>
+          
+          <div class="footer-social">
+            
             <ul class="list social-list">
               <li class="social-item">
                 <a href="" class="social-link social-link-footer">
@@ -486,7 +489,7 @@
                 </a>
               </li>
             </ul>
-          </section>
+          </div>
         </div>
       </div>
     </footer>
