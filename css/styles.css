@@ -192,27 +192,23 @@ body {
   display: block;
 }
 
-.footer-lists {
-  /* display: flex; */
-}
 
-.footer-text {
+.footer-lists {
   display: flex;
   align-items: baseline;
 }
 
-.footer-links {
-  display: flex;
-}
 
-.address-link-section {
+
+.footer-links {
   margin-right: 70px;
+  
 }
 
 .footer-social {
 }
 
-.footer-social-header {
+.footer-social-text {
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1.14;
@@ -221,9 +217,8 @@ body {
 }
 
 .logo-footer {
-  /* display: block; */
+  display: block;
   margin-bottom: 20px;
-  margin-right: 156px;
 }
 
 .address-footer-item:not(:last-child) {
@@ -531,7 +526,7 @@ body {
 }
 
 .portfolio-item:hover,
-.portfolio-item link:focus {
+.portfolio-item li:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
